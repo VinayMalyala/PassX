@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PassX - Your Personal Password Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- header  -->
+     <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- main -->
+     <main>
+        <div class="container">
+            <h1><i class="fa-solid fa-key"></i> PassX - Password Manager</h1>
+            <h2>Your Password</h2>
+            
+
+            <table>
+                <tr>
+                    <th>Website</th>
+                    <th>Username</th>
+                    <th>Password</th>
+                    <th>Delete</th>
+                </tr>
+                <tr>
+                    <td>CWH</td>
+                    <td>vinay_malyala</td>
+                    <td>vinay_malyala</td>
+                    <td>vinay_malyala</td>
+                </tr>
+                <tr>
+                    <td>Vinay</td>
+                    <td>100</td>
+                </tr>
+            </table>
+
+            <h2>Add a Password</h2>
+
+            <form action="/submit" method="post">
+                <!-- Text input for username -->
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <br><br>
+            
+                <!-- Password input -->
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <br>
+            
+            
+                <!-- Submit button -->
+                <input type="submit" value="Submit">
+              </form>
+        </div>
+     </main>
+        
+     
+    
+
+     <!-- custom js link  -->
+    <script src="script.js"></script>
+
+    <!-- custom font awesome link  -->
+    <script src="https://kit.fontawesome.com/215c9dab69.js" crossorigin="anonymous"></script>
+</body>
+</html>
