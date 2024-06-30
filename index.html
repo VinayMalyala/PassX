@@ -11,6 +11,7 @@
     <!-- header  -->
      <header>
         <nav>
+            <div class="logo"><i class="fa-solid fa-key"></i> PassX</div>
             <ul>
                 <li>Home</li>
                 <li>About</li>
@@ -23,7 +24,7 @@
     <!-- main -->
      <main>
         <div class="container">
-            <h1><i class="fa-solid fa-key"></i> PassX - Password Manager</h1>
+            <h1>PassX - Password Manager</h1>
             <h2>Your Password</h2>
             
 
@@ -34,21 +35,16 @@
                     <th>Password</th>
                     <th>Delete</th>
                 </tr>
-                <tr>
-                    <td>CWH</td>
-                    <td>vinay_malyala</td>
-                    <td>vinay_malyala</td>
-                    <td>vinay_malyala</td>
-                </tr>
-                <tr>
-                    <td>Vinay</td>
-                    <td>100</td>
-                </tr>
             </table>
 
             <h2>Add a Password</h2>
 
             <form action="/submit" method="post">
+                <!-- Text input for website -->
+                <label for="website">Website:</label>
+                <input type="text" id="website" name="website" required>
+                <br><br>
+
                 <!-- Text input for username -->
                 <label for="username">Username:</label>
                 <input type="text" id="username" name="username" required>
@@ -61,7 +57,7 @@
             
             
                 <!-- Submit button -->
-                <input type="submit" value="Submit">
+                <button class="button" type="submit">Submit</button>
               </form>
         </div>
      </main>

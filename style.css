@@ -7,11 +7,25 @@
 }
 
 nav{
-    background-color: aquamarine;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    margin: 0 23px;
+    font-weight: 800;
+    font-size: 23px;
+    cursor: pointer;
 }
 
 ul{
     display: flex;
+    margin: 0 23px;
+    align-items: center;
+    cursor: pointer;
 }
 
 ul li{
@@ -19,6 +33,32 @@ ul li{
     margin: 0 13px;
 }
 
-table{
+ul li:hover{
+    color: aqua;
+}
+
+table, td, tr{
     border: 2px solid #000;
+    border-collapse: collapse;  
+    padding: 5px 13px;
+}
+
+.container{
+    width: 80%;
+    margin: 23px auto;
+}
+
+h1, h2, h3{
+    margin: 23px 0;
+}
+
+.button{
+    color: #fff;
+    background-color: #000;
+    padding: 8px 17px;
+    font-weight: 900;
+    border: 2px solid gray;
+    border-radius: 8px;
+    margin: 25px 0;
+    cursor: pointer;
 }
