@@ -62,3 +62,20 @@ h1, h2, h3{
     margin: 25px 0;
     cursor: pointer;
 }
+
+.small-button{
+    color: #fff;
+    background-color: #000;
+    padding: 6px 12px;
+    font-weight: 900;
+    border: 2px solid gray;
+    border-radius: 8px;
+    cursor: pointer;   
+}
+
+img{
+    cursor: pointer;
+}
+ #alert{
+    display: none;
+ }
