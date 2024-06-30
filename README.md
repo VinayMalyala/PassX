@@ -20,7 +20,7 @@ To use PassX, simply clone the repository and open the `index.html` file in your
 2. **View Passwords**: Your saved passwords will be listed on the main page. Click on an entry to view the details.
 3. **Edit/Delete Passwords**: Each entry can be edited or deleted as needed.
 
-# Preview:
+## Preview:
 
 ## Contributing
 PassX is a personal project, but contributions are welcome. If you have any suggestions or improvements, feel free to submit a pull request.
