@@ -22,6 +22,9 @@ To use PassX, simply clone the repository and open the `index.html` file in your
 
 ## Preview:
 
+https://github.com/VinayMalyala/PassX/assets/111955986/5ede0683-1d7a-4b61-9703-020a03ca675a
+
+
 ## Contributing
 PassX is a personal project, but contributions are welcome. If you have any suggestions or improvements, feel free to submit a pull request.
 
